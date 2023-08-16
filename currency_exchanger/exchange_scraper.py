@@ -9,5 +9,5 @@ class CurrencyConversion:
     
     def convert(self) -> float:
         google_finance_query = build_google_finance_query(self.currency_from, self.currency_to)
-
         
+
